@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/debian:stable-slim docker://crpi-l4eaw54bzztpe9af.cn-hangzhou.personal.cr.aliyuncs.com/caihuaoo/debian:stable-slim
+         skopeo copy docker://docker.io/portainer/portainer-ce:2.21.1 docker://crpi-l4eaw54bzztpe9af.cn-hangzhou.personal.cr.aliyuncs.com/caihuaoo/portainer/portainer-ce:2.21.1
          
          
          
